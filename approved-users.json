@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated": "2026-04-24",
+  "comment": "TBL Appraiser access list. Edit to grant/revoke access. Changes take effect on the user's next app launch (or within 5 minutes on active sessions). Email → tier. Tiers: founders (indefinite paid access, waived payment), paid (1-year paid license), trial (3-day trial from user's first launch). Anyone not in any list gets the Access Pending screen.",
+  "founders": [
+    "erafhsr@gmail.com",
+    "thebizlaunch@gmail.com"
+  ],
+  "paid": [],
+  "trial": []
+}
