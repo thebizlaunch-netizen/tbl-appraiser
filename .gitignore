@@ -1,0 +1,11 @@
+# Never commit user lists, secrets, or anything that would leak founder/customer PII.
+# The TBL Appraiser app reads its access list from
+#   https://api.tblappraiser.tblsoftwares.com/whitelist
+# (private API), NOT from a file in this public repo.
+approved-users.json
+*.env
+*.env.local
+*.tokens
+.tokens/
+node_modules/
+.DS_Store
